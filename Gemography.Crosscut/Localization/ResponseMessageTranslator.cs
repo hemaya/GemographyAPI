@@ -13,5 +13,7 @@ namespace Gemography.Crosscut.Localization
             "Forbidden";
         public static string Unauthorized =>
             "Unauthorized";
+        public static string NotSpecified =>
+            "Not Specified Language";
     }
 }

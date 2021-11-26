@@ -31,7 +31,7 @@ namespace Gemography.Infrastructure.DataManager
 
             var groupedLanguages = data.GroupBy(a => a.language).Select(a => new GetLanguagesListQueryResult
             {
-                LanguageName = a.Key!=null?a.Key:"Not Specified",
+                LanguageName = a.Key!=null?a.Key:ResponseMessageTranslator.NotSpecified,
                 ReposUsingCnt = a.Count(),
                 ReposUsingList = a.ToList()
             }) ;
