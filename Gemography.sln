@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gemography.APIs", "Gemography.APIs\Gemography.APIs.csproj", "{E26C0364-D1C8-434C-AB13-B5411F5326D1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gemography.Application", "Gemography.Application\Gemography.Application.csproj", "{3378F4C3-8EF9-4701-9995-0AD64CC0E330}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gemography.Infrastructure", "Gemography.Infrastructure\Gemography.Infrastructure.csproj", "{52A61407-AB8A-4C62-8CCF-BC07DA04F969}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gemography.Integration", "Gemography.Integration\Gemography.Integration.csproj", "{A6A6D48C-86F6-483A-84EA-509B81D96950}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gemography.UnitTest", "Gemography.UnitTest\Gemography.UnitTest.csproj", "{D4ACA737-8302-439B-B8A3-D9782F05258D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gemography.Crosscut", "Gemography.Crosscut\Gemography.Crosscut.csproj", "{A59C72F5-2C0C-4D90-9B91-AE2A704084B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E26C0364-D1C8-434C-AB13-B5411F5326D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E26C0364-D1C8-434C-AB13-B5411F5326D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E26C0364-D1C8-434C-AB13-B5411F5326D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E26C0364-D1C8-434C-AB13-B5411F5326D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3378F4C3-8EF9-4701-9995-0AD64CC0E330}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3378F4C3-8EF9-4701-9995-0AD64CC0E330}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3378F4C3-8EF9-4701-9995-0AD64CC0E330}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3378F4C3-8EF9-4701-9995-0AD64CC0E330}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52A61407-AB8A-4C62-8CCF-BC07DA04F969}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52A61407-AB8A-4C62-8CCF-BC07DA04F969}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52A61407-AB8A-4C62-8CCF-BC07DA04F969}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52A61407-AB8A-4C62-8CCF-BC07DA04F969}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6A6D48C-86F6-483A-84EA-509B81D96950}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6A6D48C-86F6-483A-84EA-509B81D96950}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6A6D48C-86F6-483A-84EA-509B81D96950}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6A6D48C-86F6-483A-84EA-509B81D96950}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4ACA737-8302-439B-B8A3-D9782F05258D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4ACA737-8302-439B-B8A3-D9782F05258D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4ACA737-8302-439B-B8A3-D9782F05258D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4ACA737-8302-439B-B8A3-D9782F05258D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A59C72F5-2C0C-4D90-9B91-AE2A704084B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A59C72F5-2C0C-4D90-9B91-AE2A704084B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A59C72F5-2C0C-4D90-9B91-AE2A704084B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A59C72F5-2C0C-4D90-9B91-AE2A704084B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE607FEA-504B-4283-8E09-76D00979228C}
+	EndGlobalSection
+EndGlobal
